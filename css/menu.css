@@ -1,0 +1,443 @@
+.menu {
+
+	width: 100%;
+
+	float: left;
+
+	padding-left:180px;
+
+}
+
+
+
+.menu nav ul li i	{
+
+	color:#f8b333;	
+
+}
+
+
+
+.main-nav {
+
+    margin: auto;
+
+    width: 100%;
+
+}
+
+.main-nav li{
+
+  	float: left;
+
+
+
+}
+
+
+
+.main-nav ul li{
+
+	float: left;
+
+	list-style: none;
+
+	position: relative;
+
+	text-align: center;
+
+}
+
+
+
+.main-nav ul li a:after	{
+
+	content:"/";
+
+	margin:0 40px;
+
+	color:#fff;
+
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight:300;
+
+}
+
+
+
+.main-nav ul li a i	, 
+
+.main-nav ul li a i:hover{
+
+	color:#fff;	
+
+}
+
+
+
+.main-nav ul ul li a:after 	{
+
+	content:"";
+
+	margin:0;
+
+}
+
+
+
+.main-nav ul li:last-child a:after	{
+
+	content:"";
+
+	margin:0;
+
+}
+
+ 
+
+.main-nav ul li a{
+
+	color: #d1d1d1;
+
+	display: block;
+
+	font-size: 13px;
+
+	font-weight:bold;
+
+	line-height: 22px;
+
+	padding: 0.75em 0.5em;
+
+	font-family: 'Open Sans', sans-serif;
+
+	position: relative;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+	-webkit-transition: all 0.5s ease 0s;
+
+	-moz-transition: all 0.5s ease 0s;
+
+	-ms-transition: all 0.5s ease 0s;
+
+	-o-transition: all 0.5s ease 0s;
+
+	transition: all 0.5s ease 0s;
+
+}
+
+
+
+.main-nav ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+    font-size: 13.2px;
+    font-weight: 500 !important;
+}
+
+.main-nav  ul ul a:hover {
+
+	color: #fff;
+
+}
+
+
+
+.main-nav  ul ul a {
+
+	color: #fff;
+
+}
+
+
+
+.main-nav  ul ul li:last-child a	{
+
+	border:none;	
+
+}
+
+
+
+.main-nav  ul ul li:last-child a:hover	{
+
+	background:none;
+
+	color:#ccc;	
+
+}
+
+
+
+.main-nav  ul ul a:hover	{
+
+	color:#ccc;	
+
+}
+
+ 
+
+.main-nav  li:hover > ul {
+
+	display: block;
+
+	opacity: 1;
+
+	visibility: visible;
+
+	margin-top:0px;
+
+}
+
+ 
+
+.main-nav  ul li > ul {
+
+	background:#000000;
+
+	visibility: hidden;
+
+	width: auto;
+
+	position: absolute;
+
+	text-align: center;
+
+	-webkit-transition: all 0.5s ease 0s;
+
+	-moz-transition: all 0.5s ease 0s;
+
+	-ms-transition: all 0.5s ease 0s;
+
+	-o-transition: all 0.5s ease 0s;
+
+	transition: all 0.5s ease 0s;
+
+	opacity: 0;
+
+	margin-top:15px;
+
+	z-index:999;
+
+}
+
+ 
+
+.main-nav  ul ul li {
+
+	display: block;
+
+	float: none;
+
+	margin: 0;
+
+	list-style: none;
+
+	border-bottom:1px dashed#666;
+
+}
+
+
+
+.main-nav  ul ul li a	{
+
+	color:#5d5d5d;	
+
+}
+
+
+
+.main-nav  ul ul li a:before	{
+
+	content: "\f105";
+
+	font-family: 'FontAwesome';
+
+	margin:0 5px 0 0;
+
+	color:#fff;
+
+}
+
+
+
+.main-nav  ul ul li a:hover	{
+
+	background:#191919;
+
+	color:#fff;	
+
+}
+
+ 
+
+.main-nav ul li.sub_menu > a {
+
+	padding-right: 32px;
+
+}
+
+
+
+.main-nav ul li.sub_menu > a:before {
+
+	border-left: 6px solid rgba(0, 0, 0, 0);
+
+	border-right: 6px solid rgba(0, 0, 0, 0);
+
+	border-top: 6px solid #FFF;
+
+	content: "";
+
+	height: 0;
+
+	position: absolute;
+
+	right: 10px;
+
+	top: 37px;
+
+	width: 0;
+
+	z-index: 999;
+
+}
+
+ 
+
+.main-nav  ul ul a,
+
+.main-nav  ul ul a:link {
+
+	font-size: 11px;
+
+	line-height: 40px;
+
+	padding: 0 15px;
+
+	min-width: 200px;
+
+	text-align: left;
+
+}
+
+ 
+
+.main-nav  ul:after {
+
+	content: '.';
+
+	display: block;
+
+	clear: both;
+
+	visibility: hidden;
+
+	line-height: 0;
+
+	height: 0;
+
+}
+
+
+
+.main-nav ul , 
+
+.main-nav ul ul {
+
+	padding: 0;
+
+	margin: 0;
+
+	list-style: none;
+
+	line-height: 1;
+
+}
+
+
+
+.main-nav ul	{
+
+	padding: 0;
+
+	list-style: none;
+
+	line-height: 1;
+
+	float:right;
+
+}
+
+
+
+.main-nav ul li ul ul {
+
+	margin: -51px 0px 0px 188px !important;
+
+}
+
+
+
+.main-nav ul li:hover ul ul , 
+
+.main-nav ul li:hover ul ul ul , 
+
+.main-nav ul li.sfhover ul ul , 
+
+.main-nav ul li.sfhover ul ul ul {
+
+	left: -999em;
+
+}
+
+
+
+.main-nav ul li:hover ul , 
+
+.main-nav ul li li:hover ul , 
+
+.main-nav ul li li li:hover ul , 
+
+.main-nav ul li.sfhover ul , 
+
+.main-nav ul li li.sfhover ul , 
+
+.main-nav ul li li li.sfhover ul { 
+
+	left: auto;
+
+}
+
+
+
+.main-nav ul li li li:hover ul {
+
+	top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+
+	.main-nav ul li a	{
+
+		padding:0.10em 0.35em;
+
+		font-size:10px;
+
+		line-height:18px;
+
+	}
+
+}
